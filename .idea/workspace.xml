@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f07c5c-2c0f-4bb4-91a5-63caef02ee8a" name="Changes" comment="start: setup spring application.">
-      <change afterPath="$PROJECT_DIR$/nasa-app/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeccol/nasa/NasaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codeccol/nasa/NasaApplicationTests.java" beforeDir="false" />
+    <list default="true" id="e3f07c5c-2c0f-4bb4-91a5-63caef02ee8a" name="Changes" comment="start: setup react application and fetch data from nasa free api.">
+      <change afterPath="$PROJECT_DIR$/nasa-app/src/components/Date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nasa-app/src/components/Explanation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nasa-app/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nasa-app/src/components/ImageTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nasa-app/src/components/Media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nasa-app/src/components/Planet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/nasa-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nasa-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1640625792686</updated>
       <workItem from="1640625797786" duration="5988000" />
-      <workItem from="1640632906569" duration="896000" />
+      <workItem from="1640632906569" duration="2293000" />
+      <workItem from="1640635525877" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="start: setup spring application.">
       <created>1640626453049</created>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640626453049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="start: setup react application and fetch data from nasa free api.">
+      <created>1640633854303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640633854303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start: setup spring application." />
-    <option name="LAST_COMMIT_MESSAGE" value="start: setup spring application." />
+    <MESSAGE value="start: setup react application and fetch data from nasa free api." />
+    <option name="LAST_COMMIT_MESSAGE" value="start: setup react application and fetch data from nasa free api." />
   </component>
 </project>
