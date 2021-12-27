@@ -1,4 +1,6 @@
 import React from "react";
+import Header from './components/Header'
+import Planet from './components/Planet'
 
 class App extends React.Component {
 
@@ -33,13 +35,8 @@ class App extends React.Component {
 
             return (
                 <div className = "App">
-                    <h1> Fetch data from an api in react </h1>  {
-                        <ol>
-                            title: { items.title },
-                            date: { items.date }
-                        </ol>
-
-                }
+                    <Header />
+                    <Planet planet={items} />
                 </div>
             );
         }
