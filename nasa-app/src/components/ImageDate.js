@@ -1,6 +1,7 @@
-import PropTypes from 'prop-types'
+import React  from 'react';
 
-const Date = ({planet}) => {
+
+const ImageDate = ({planet}) => {
 
     return (
         <p className='date'>
@@ -9,4 +10,4 @@ const Date = ({planet}) => {
     )
 }
 
-export default Date
+export default ImageDate
