@@ -9,10 +9,6 @@ const Gallery = ({gallery}) => {
     const handleClickGallery = (event, planet) => {
         setDisplayModal(!displayModal)
         setCurrentPlanet(planet)
-        let a = event.target;
-        console.log('cliked');
-        console.log(a);
-        console.log(planet)
     }
 
     //iframe too!
