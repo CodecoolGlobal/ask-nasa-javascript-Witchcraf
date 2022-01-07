@@ -2,19 +2,23 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import Header from './components/Header'
 import Planet from './components/Planet'
+import Gallery from './components/Gallery'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 function App() {
   const [planets, setPlanets] = useState([]);
+  const [gallery, setGallery] = useState([]);
   const [startDay, setStartDay] = useState(new Date());
   const [endDay, setEndDay] = useState(new Date());
   const [isLoaded, setIsLoaded] = useState(false);
   const formatteDactualdDay = convertDateToString(endDay);
   const apiKey = 'IKCprAisLHN808TsA7nf2x6L2SINwTUH0zasB7QG';
   let formattedChoosenDay = convertDateToString(startDay);
+  let galleryNumber = 3;
   //let url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&start_date=${formattedChoosenDay}&end_date=${formatteDactualdDay}`;
   let url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&start_date=${formattedChoosenDay}`;
+  let urlGallery = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=${galleryNumber}`;
 
 
 
@@ -25,8 +29,23 @@ function App() {
       setIsLoaded(true)
     }
 
+
+
     getPlantes(url)
+
   }, [startDay])
+
+  useEffect(()=>{
+    const getRandomGallery = async (urlGallery) => {
+      const galleryFromAPI = await fetchPlanets(urlGallery);
+      setGallery(galleryFromAPI)
+      setIsLoaded(true)
+    }
+    getRandomGallery(urlGallery)
+
+  }, [])
+
+  //console.log(gallery)
 
 
   // Fetch Planets
@@ -49,7 +68,7 @@ function App() {
     return joinedDay.join("-");// Leading zeros for mm and dd
   }
 
-  console.log(url)
+  //console.log(url)
 
   let body;
   if (!isLoaded) {
@@ -58,7 +77,10 @@ function App() {
   } else {
     body =  (
         <div className = "App">
+          <Gallery gallery={gallery} />
+          <h3>You can choose previous day here:</h3>
           <DatePicker onChange={(date) => setStartDay(date)}
+                      popperPlacement="auto"
                       maxDate={new Date()}/>
           <Header />
           <Planet planets={planets}/>

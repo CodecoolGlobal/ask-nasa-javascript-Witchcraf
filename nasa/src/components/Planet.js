@@ -5,7 +5,7 @@ import ImageDate from './ImageDate'
 import React from 'react';
 
 const Planet = ({planets}) => {
-    console.log(planets)
+    //console.log(planets)
     for (let planet of planets) {
         return(
             <div className='header'>
