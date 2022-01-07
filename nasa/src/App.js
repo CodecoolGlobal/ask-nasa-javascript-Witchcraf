@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import Header from './components/Header'
@@ -11,31 +10,31 @@ function App() {
   const [startDay, setStartDay] = useState(new Date());
   const [endDay, setEndDay] = useState(new Date());
   const [isLoaded, setIsLoaded] = useState(false);
-  let formattedChoosenDay = convertDateToString(endDay);
-  let formatteDactualdDay = convertDateToString(endDay);
-  
+  const formatteDactualdDay = convertDateToString(endDay);
   const apiKey = 'IKCprAisLHN808TsA7nf2x6L2SINwTUH0zasB7QG';
-  const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&start_date=${formattedChoosenDay}&end_date=${formatteDactualdDay}`;
+  let formattedChoosenDay = convertDateToString(startDay);
+  //let url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&start_date=${formattedChoosenDay}&end_date=${formatteDactualdDay}`;
+  let url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&start_date=${formattedChoosenDay}`;
+
 
 
   useEffect(() => {
-    const getPlantes = async () => {
-      const planetsFromAPI = await fetchPlanets();
+    const getPlantes = async (url) => {
+      const planetsFromAPI = await fetchPlanets(url);
       setPlanets(planetsFromAPI)
       setIsLoaded(true)
     }
 
-    getPlantes()
-  }, [])
+    getPlantes(url)
+  }, [startDay])
 
-  
-  // Fetch Tasks
-  const fetchPlanets = async () => {
+
+  // Fetch Planets
+  const fetchPlanets = async (url) => {
     const res = await fetch(url)
     const data = await res.json()
     return data
   }
-
 
 
   function convertDateToString(day) {
@@ -50,8 +49,7 @@ function App() {
     return joinedDay.join("-");// Leading zeros for mm and dd
   }
 
-  //console.log(planets)
-  console.log(isLoaded)
+  console.log(url)
 
   let body;
   if (!isLoaded) {
@@ -60,7 +58,7 @@ function App() {
   } else {
     body =  (
         <div className = "App">
-          <DatePicker onChange={""}
+          <DatePicker onChange={(date) => setStartDay(date)}
                       maxDate={new Date()}/>
           <Header />
           <Planet planets={planets}/>
