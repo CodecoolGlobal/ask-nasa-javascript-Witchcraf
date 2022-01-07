@@ -5,6 +5,8 @@ import Planet from './components/Planet'
 import Gallery from './components/Gallery'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [planets, setPlanets] = useState([]);
@@ -12,6 +14,9 @@ function App() {
   const [startDay, setStartDay] = useState(new Date());
   const [endDay, setEndDay] = useState(new Date());
   const [isLoaded, setIsLoaded] = useState(false);
+
+
+
   const formatteDactualdDay = convertDateToString(endDay);
   const apiKey = 'IKCprAisLHN808TsA7nf2x6L2SINwTUH0zasB7QG';
   let formattedChoosenDay = convertDateToString(startDay);
@@ -28,11 +33,7 @@ function App() {
       setPlanets(planetsFromAPI)
       setIsLoaded(true)
     }
-
-
-
     getPlantes(url)
-
   }, [startDay])
 
   useEffect(()=>{
@@ -42,7 +43,6 @@ function App() {
       setIsLoaded(true)
     }
     getRandomGallery(urlGallery)
-
   }, [])
 
   //console.log(gallery)
