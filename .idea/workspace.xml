@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e3f07c5c-2c0f-4bb4-91a5-63caef02ee8a" name="Changes" comment="feat: extend Planet.js to handle datepicker value." />
+=======
+    <list default="true" id="e3f07c5c-2c0f-4bb4-91a5-63caef02ee8a" name="Changes" comment="feat: extend Planet.js to handle datepicker value.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nasa-app/.gitignore" afterDir="false" />
+    </list>
+>>>>>>> origin/development
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +109,10 @@
       <workItem from="1641237622843" duration="33000" />
       <workItem from="1641380032728" duration="1748000" />
       <workItem from="1641382948368" duration="13717000" />
+<<<<<<< HEAD
       <workItem from="1641540554042" duration="699000" />
+=======
+>>>>>>> origin/development
     </task>
     <task id="LOCAL-00001" summary="start: setup spring application.">
       <created>1640626453049</created>
