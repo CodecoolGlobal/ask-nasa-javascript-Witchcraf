@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3f07c5c-2c0f-4bb4-91a5-63caef02ee8a" name="Changes" comment="feat: extend Planet.js to handle datepicker value." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22sUSuBP6TNsAZVXcMuKSrHdu4y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css/js/js" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/js" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/index.js" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="NasaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ask-nasa-javascript-Witchcraf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codeccol.nasa.NasaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-16" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3f07c5c-2c0f-4bb4-91a5-63caef02ee8a" name="Changes" comment="" />
+      <created>1640625792686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640625792686</updated>
+      <workItem from="1640625797786" duration="5988000" />
+      <workItem from="1640632906569" duration="2293000" />
+      <workItem from="1640635525877" duration="2443000" />
+      <workItem from="1640679868700" duration="9418000" />
+      <workItem from="1640701080659" duration="1731000" />
+      <workItem from="1640704904683" duration="239000" />
+      <workItem from="1641193376581" duration="24000" />
+      <workItem from="1641194056601" duration="1539000" />
+      <workItem from="1641227847697" duration="887000" />
+      <workItem from="1641229624718" duration="1235000" />
+      <workItem from="1641237622843" duration="33000" />
+      <workItem from="1641380032728" duration="1748000" />
+      <workItem from="1641382948368" duration="13717000" />
+      <workItem from="1641540554042" duration="699000" />
+    </task>
+    <task id="LOCAL-00001" summary="start: setup spring application.">
+      <created>1640626453049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640626453049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="start: setup react application and fetch data from nasa free api.">
+      <created>1640633854303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640633854303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: create and add components to build a header and planet details.">
+      <created>1640637611131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640637611131</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: create Date component">
+      <created>1640637635294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640637635294</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: create components to build a PLanet with details.">
+      <created>1640637677001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640637677001</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add ccs style to components.">
+      <created>1640637719002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640637719002</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: passValue from DatePicker in App.js">
+      <created>1641396545062</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641396545062</updated>
+    </task>
+    <task id="LOCAL-00008" summary="style: cancelled unused import statements.">
+      <created>1641396581447</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641396581447</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add style to iframe tag in Media.js">
+      <created>1641396607962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641396607962</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: aadd date-picker to my json file.">
+      <created>1641396660012</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641396660012</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: extend Planet.js to handle datepicker value.">
+      <created>1641396684704</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641396684704</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start: setup spring application." />
+    <MESSAGE value="start: setup react application and fetch data from nasa free api." />
+    <MESSAGE value="feat: create and add components to build a header and planet details." />
+    <MESSAGE value="feat: create Date component" />
+    <MESSAGE value="feat: create components to build a PLanet with details." />
+    <MESSAGE value="feat: add ccs style to components." />
+    <MESSAGE value="feat: passValue from DatePicker in App.js" />
+    <MESSAGE value="style: cancelled unused import statements." />
+    <MESSAGE value="feat: add style to iframe tag in Media.js" />
+    <MESSAGE value="feat: aadd date-picker to my json file." />
+    <MESSAGE value="feat: extend Planet.js to handle datepicker value." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: extend Planet.js to handle datepicker value." />
+  </component>
+</project>
